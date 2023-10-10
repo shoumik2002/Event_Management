@@ -1,0 +1,82 @@
+/* Basic styling, customize as needed */
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+.dash{
+    border: 2px solid black;
+    padding: 90px; 
+    background-image: url(vendor.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 1200px;
+}
+.header,.dashboard-container{
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #007BFF;
+    margin-top: 5%;
+}
+#button {
+    width: 10em;
+    border: 2px solid green;
+    background: #ffe;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 30%;
+    background-color: #007BFF
+}
+a {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    color: red;
+    background: #eff;
+}
+.login-container{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+.dash-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 10px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10%;
+    position: relative;
+}
+input[type="text"], input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 60%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
